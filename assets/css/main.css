@@ -185,7 +185,7 @@ input, select, textarea {
 		font-weight: 900;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		margin: 0 0 1rem 0;
 	}
 
@@ -2607,7 +2607,11 @@ input, select, textarea {
 		}
 
 /* Image */
-
+	#image fit{
+		border-radius: 4px;
+		padding: 5px;
+		width: 200px;
+	}
 	.image {
 		border: 0;
 		display: inline-block;
@@ -3799,7 +3803,7 @@ input, select, textarea {
 		}
 
 		#main > .post {
-			padding: 8rem 8rem 6rem 8rem ;
+			padding: 2rem 8rem 1rem 8rem ;
 		}
 
 			#main > .post header.major > .date {
@@ -3860,7 +3864,12 @@ input, select, textarea {
 			width: 100%;
 			padding: 0;
 		}
-
+		 h2, .posts{
+			font-size: 30px;
+		}
+		h4, .posts{
+			font-family: None;
+		}
 			#main > .posts > * {
 				-moz-flex-shrink: 1;
 				-webkit-flex-shrink: 1;
